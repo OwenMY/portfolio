@@ -5,6 +5,9 @@
   "repository": "https://github.com/OwenMY/portfolio.git",
   "author": "Owen Yoshishige <owenyoshishige@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": ""
+  },
   "dependencies": {
     "react": "^18.2.0"
   }

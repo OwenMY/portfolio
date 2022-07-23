@@ -6,7 +6,7 @@
   "author": "Owen Yoshishige <owenyoshishige@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "next": "next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

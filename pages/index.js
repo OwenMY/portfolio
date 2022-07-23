@@ -1,5 +1,15 @@
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
+import Image from 'next/image';
+
+const App = () => {
+  return (
+    <div>
+      <h1>Welcome to Next.js!</h1>
+      <Image src="/images/profile-pic.jpeg" alt="Owen" />
+    </div>
+
+    )
 };
 
-export default HomePage;
+var poop
+
+export default App;

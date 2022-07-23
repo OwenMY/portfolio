@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OwenMY/portfolio.git",
+  "author": "Owen Yoshishige <owenyoshishige@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

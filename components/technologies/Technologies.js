@@ -5,9 +5,9 @@ import {DiMysql} from 'react-icons/di';
 // const technology_style = ''
 const Technologies = () => {
   return (
-    <div className="flex flex-col justify-center max-h-[20em] bg-gradient-to-t from-black via-black to-transparent">
+    <div className="flex flex-col justify-center bg-black/[.5] p-10 m-auto max-h-[20em]">
       <h2 className="text-6xl underline text-center font-bold">Technologies</h2>
-      <div className="flex flex-row flex-wrap w-[100vw] overflow-hidden text-center items-center mx-auto mt-1 p-10 gap-8 justify-center">
+      <div className="flex flex-row flex-wrap w-[90vw] overflow-hidden text-center items-center mx-auto mt-1 p-10 gap-8 justify-center">
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <FaReact className="inline m-0 p-0"/>React</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">

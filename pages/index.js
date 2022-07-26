@@ -4,6 +4,7 @@ import Script from 'next/script';
 import NavBar from '../components/navbar/NavBar';
 import Introduction from '../components/introduction/Introduction';
 import Technologies from '../components/technologies/Technologies';
+import Projects from '../components/projects/Projects';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <NavBar />
       <Introduction />
       <Technologies />
+      <Projects />
     </>
   )
 };

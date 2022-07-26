@@ -1,19 +1,35 @@
 import {FaReact, FaAws} from 'react-icons/fa';
-import {SiJavascript, SiExpress, SiMongodb, SiPostgresql, SiTailwindcss, SiSass, SiJest, SiTestinglibrary, SiNextdotjs, SiVercel} from 'react-icons/si';
+import {SiJavascript, SiExpress, SiMongodb, SiPostgresql,
+   SiTailwindcss, SiSass, SiJest, SiTestinglibrary, SiNextdotjs, SiVercel, SiChartdotjs} from 'react-icons/si';
 import {DiMysql} from 'react-icons/di';
+import {motion} from 'framer-motion';
 
 // const technology_style = ''
 const Technologies = () => {
   return (
-    <div className="flex flex-col justify-center bg-black/[.5] p-10 m-auto max-h-[20em]">
-      <h2 className="text-6xl underline text-center font-bold">Technologies</h2>
-      <div className="flex flex-row flex-wrap w-[90vw] overflow-hidden text-center items-center mx-auto mt-1 p-10 gap-8 justify-center">
+    <div className="flex flex-col justify-center bg-black/[.5] p-10 m-auto">
+      <motion.h2
+        transition={{duration: 1}}
+        animate={{x: 0}}
+        initial={{opacity: 0, y: -50}}
+        whileInView={{opacity: 1}}
+        viewport={{once: true}}
+        className="text-6xl underline m-5 text-center font-bold">Technologies</motion.h2>
+      <motion.div
+        transition={{duration: 2}}
+        animate={{x: 0}}
+        initial={{opacity: 0, y: -50}}
+        whileInView={{opacity: 1}}
+        viewport={{once: true}}
+        className="flex flex-row flex-wrap w-[90vw] overflow-hidden text-center items-center mx-auto mt-1 p-10 gap-8 justify-center">
+        <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
+          <SiJavascript className="m-0 p-0"/>Javascript</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <FaReact className="inline m-0 p-0"/>React</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <SiNextdotjs className="inline m-0 p-0"/>Next</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
-          <SiJavascript className="m-0 p-0"/>Javascript</span>
+          <SiChartdotjs className="inline m-0 p-0"/>Chart</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <SiExpress className="inline m-0 p-0"/>Express</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
@@ -34,7 +50,7 @@ const Technologies = () => {
           <SiJest className="inline m-0 p-0"/>Jest</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <SiTestinglibrary className="inline m-0 p-0"/>Testing Library</span>
-      </div>
+      </motion.div>
     </div>
   )
 };

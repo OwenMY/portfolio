@@ -12,7 +12,7 @@ const Atelier = () => {
               height="10em"
               width="17em"
               alt="GymX5000 Pic"
-              src="/images/GymX5000.jpg"
+              src="/images/Atelier.jpeg"
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Atelier</div>

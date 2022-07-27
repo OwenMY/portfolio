@@ -36,7 +36,7 @@ const NavBar = () => {
           whileInView={{opacity: 1}}
           viewport={{once: true}}
           className="p-2 m-1 font-bold font-sans border-2 transition-all ease-in border-gray-800 cursor-pointer text-gray-100 bg-gray-800 rounded hover:text-gray-500 hover:bg-inherit ">
-            Hire Me
+            Contact
         </motion.a>
       </div>
     </div>

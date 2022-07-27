@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const GymX5000 = () => {
+const Atelier = () => {
   return (
     <>
       <div className="m-auto mt-5 relative">
@@ -15,13 +15,12 @@ const GymX5000 = () => {
               src="/images/GymX5000.jpg"
             />
           </div>
-          <div className="text-left font-bold break-normal ml-2">GymX5000</div>
-          <div className="text-sm pt-2">An all inclusive gym application with the ability to challenge your friends and find healthy recipes</div>
+          <div className="text-left font-bold break-normal ml-2">Atelier</div>
+          <div className="text-sm pt-2">An ecommerce product page where customers can rate, view products, ask questions, and write reviews </div>
           <div className="flex flex-row gap-1 flex-wrap absolute bottom-0 m-auto p-1">
             <span className="text-xs bg-gray-800 border p-1 rounded-xl">Javascript</span>
             <span className="text-xs bg-gray-800 border p-1 rounded-xl">React</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">React Router</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">Material UI</span>
+            <span className="text-xs bg-gray-800 border p-1 rounded-xl">Express</span>
           </div>
         </div>
       </div>
@@ -29,4 +28,4 @@ const GymX5000 = () => {
   )
 };
 
-export default GymX5000;
+export default Atelier;

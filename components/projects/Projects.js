@@ -1,5 +1,6 @@
 import GymX5000 from './GymX5000';
 import Atelier from './Atelier';
+import QnA from './QnA_API';
 
 const Projects = () => {
   return (
@@ -7,6 +8,7 @@ const Projects = () => {
       <h2 className="text-6xl underline font-bold mt-10">Projects</h2>
       <div className="flex flex-row">
         <Atelier />
+        <QnA />
         <GymX5000 />
       </div>
     </div>

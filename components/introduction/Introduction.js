@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 const Introduction = () => {
   return (
-    <div className="flex flex-row mt-20 gap-[3rem] max-w-screen min-h-[40vh] justify-center">
+    <div className="flex flex-row mt-20 gap-[3rem] max-w-screen min-h-[70vh] justify-center">
       <div className="flex-col">
         <motion.h1
           transition={{duration: 1.5}}

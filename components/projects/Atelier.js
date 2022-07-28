@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import badges from './badges/Badges';
 
 const Atelier = () => {
   return (
@@ -20,9 +21,9 @@ const Atelier = () => {
           <div className="text-left font-bold break-normal ml-2">Atelier</div>
           <div className="text-sm pt-2">An ecommerce product page where customers can rate, view products, ask questions, and write reviews </div>
           <div className="flex flex-row gap-1 flex-wrap absolute bottom-0 m-auto p-1">
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">Javascript</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">React</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">Express</span>
+            {badges.jsBadge}
+            {badges.reactBadge}
+            {badges.expressBadge}
           </div>
         </div>
       </div>

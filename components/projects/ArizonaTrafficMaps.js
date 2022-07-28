@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import badges from './badges/Badges';
 
 const ArizonaTrafficMaps = () => {
   return (
@@ -18,12 +19,12 @@ const ArizonaTrafficMaps = () => {
             </a>
           </div>
           <div className="text-left font-bold break-normal ml-2">Arizona Traffic Maps</div>
-          <div className="text-sm pt-2 text-start">A custom build google map displaying traffic bottle necks and custruction zones</div>
+          <div className="text-sm pt-2">A custom build google map displaying traffic bottle necks and custruction zones</div>
           <div className="flex flex-row gap-1 flex-wrap absolute bottom-0 m-auto p-1">
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">Javascript</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">React</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">Express</span>
-            <span className="text-xs bg-gray-800 border p-1 rounded-xl">MongoDB</span>
+            {badges.jsBadge}
+            {badges.expressBadge}
+            {badges.mongoBadge}
+            {badges.reactBadge}
           </div>
         </div>
       </div>

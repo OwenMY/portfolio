@@ -11,7 +11,7 @@ const Introduction = () => {
           initial={{opacity: 0, y: -10}}
           whileInView={{opacity: 1}}
           viewport={{once: true}}
-          className="text-6xl max-w-xl max-h-screen font-bold text-center md:text-start"
+          className="text-6xl  max-w-xl max-h-screen font-bold text-center md:text-start"
         >Software Developer And Veteran</motion.h1>
         <motion.p
           transition={{duration: 2}}

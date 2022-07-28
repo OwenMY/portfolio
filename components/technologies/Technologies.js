@@ -14,14 +14,14 @@ const Technologies = () => {
         initial={{opacity: 0, y: -50}}
         whileInView={{opacity: 1}}
         viewport={{once: true}}
-        className="text-6xl underline m-5 text-center font-bold">Technologies</motion.h2>
+        className="text-4xl md:text-6xl underline m-5 text-center font-bold">Technologies</motion.h2>
       <motion.div
         transition={{duration: 2}}
         animate={{x: 0}}
         initial={{opacity: 0, y: -50}}
         whileInView={{opacity: 1}}
         viewport={{once: true}}
-        className="flex flex-row flex-wrap w-[90vw] overflow-hidden text-center items-center mx-auto mt-1 p-10 gap-8 justify-center">
+        className="flex flex-row flex-wrap w-[80vw] overflow-hidden text-center items-center mx-auto mt-1 p-10 gap-8 justify-center">
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <SiJavascript className="m-0 p-0"/>Javascript</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">

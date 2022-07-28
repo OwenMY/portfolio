@@ -15,8 +15,8 @@ const Modal = ({ isShowing, hide, component }) => isShowing ? ReactDOM.createPor
         viewport={{once: true}}
       >
         <div className="h-auto">
-        <button type="button" className="absolute right-[5%] text-[2em] text-bold rounded ml-[.5em] px-[.3rem] py-[1rem] border-none" data-dismiss="modal" aria-label="Close" onClick={hide}>
-            <span aria-hidden="true">&times;</span>
+          <button type="button" className="absolute right-[5%] top-[0%] text-[2em] text-bold rounded ml-[.5em] px-[.3rem] py-[1rem] border-none" data-dismiss="modal" aria-label="Close" onClick={hide}>
+              <span aria-hidden="true">&times;</span>
           </button>
           <Contact />
         </div>

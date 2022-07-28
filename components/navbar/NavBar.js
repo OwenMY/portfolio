@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const NavBar = () => {
   return (
     <div className="flex flex-row justify-between px-2 py-3 bg-black text-white">
-      <div className="flex items-center ml-10">
+      <div className="flex items-center ml-5">
         <span className="m-auto p-2 text-2xl italic font-bold font-sans ">Owen Yoshishige</span>
       </div>
-      <div className="flex flex-row gap-2 items-center mr-20">
+      <div className="flex flex-row gap-2 items-center mr-5">
         <motion.a
           href="https://www.linkedin.com/in/owenyoshishige/"
           transition={{duration: .1}}

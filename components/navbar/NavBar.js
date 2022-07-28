@@ -1,8 +1,12 @@
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
 import { motion } from 'framer-motion';
+import useModal from '../modal/useModal';
+import Modal from '../modal/Modal';
 
 const NavBar = () => {
+  const { isShowing, toggle } = useModal();
+
   return (
     <div className="flex flex-col sm:flex-row  justify-between px-2 py-3 bg-black text-white">
       <div className="flex items-center ml-5">
@@ -33,6 +37,7 @@ const NavBar = () => {
             <BsGithub className="w-10 h-10 transition-all ease-in fill-gray-300 hover:fill-gray-400  " />
         </motion.a>
         <motion.a
+          onClick={toggle}
           transition={{duration: .5}}
           animate={{y: 0}}
           initial={{opacity: 0, y: -20}}
@@ -42,6 +47,7 @@ const NavBar = () => {
             Contact
         </motion.a>
       </div>
+      <Modal hide={toggle} isShowing={isShowing}/>
     </div>
   )
 };

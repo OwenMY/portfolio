@@ -19,8 +19,8 @@ const QnA = () => {
             </a>
           </div>
           <div className="text-left font-bold break-normal ml-2">Questions and Answers API</div>
-          <div className="text-sm pt-2">An API for the questions and answers section of an eccomerce store as a microservice from a monolithic API </div>
-          <div className="flex flex-row gap-1 w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
+          <div className="text-sm pt-2">An API for the questions and answers section of an ecommerce store as a microservice from a monolithic API </div>
+          <div className="flex flex-row gap-1 max-w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
             {badges.jsBadge}
             {badges.nodeBadge}
             {badges.expressBadge}

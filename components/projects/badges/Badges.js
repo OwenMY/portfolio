@@ -1,5 +1,5 @@
 import {FaAws, FaReact} from 'react-icons/fa'
-import {SiJavascript, SiNodedotjs, SiExpress, SiPostgresql, SiNginx, SiReactrouter, SiMaterialui, SiMongodb} from 'react-icons/si';
+import {SiJavascript, SiNodedotjs, SiExpress, SiPostgresql, SiNginx, SiReactrouter, SiMaterialui, SiMongodb, SiStyledcomponents, SiJest} from 'react-icons/si';
 
 
 const badges = {
@@ -23,6 +23,10 @@ const badges = {
   <SiMaterialui className="inline m-auto"/>MUI</span>,
   mongoBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
   <SiMongodb className="inline m-auto"/>MongoDB</span>,
+  styledBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiStyledcomponents className="inline m-auto"/>Styled-Components</span>,
+  jestBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiJest className="inline m-auto"/>Jest</span>,
 }
 
 export default badges;

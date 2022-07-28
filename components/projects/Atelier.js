@@ -20,10 +20,12 @@ const Atelier = () => {
           </div>
           <div className="text-left font-bold break-normal ml-2">Atelier</div>
           <div className="text-sm pt-2">An ecommerce product page where customers can rate, view products, ask questions, and write reviews </div>
-          <div className="flex flex-row gap-1 flex-wrap absolute bottom-0 m-auto p-1">
+          <div className="flex flex-row gap-1 max-w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
             {badges.jsBadge}
             {badges.reactBadge}
             {badges.expressBadge}
+            {badges.styledBadge}
+            {badges.jestBadge}
           </div>
         </div>
       </div>

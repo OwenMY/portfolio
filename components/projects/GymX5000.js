@@ -20,7 +20,7 @@ const GymX5000 = () => {
           </div>
           <div className="text-left font-bold break-normal ml-2">GymX5000</div>
           <div className="text-sm pt-2">An all inclusive gym application with the ability to challenge your friends and find healthy recipes</div>
-          <div className="flex flex-row gap-1 flex-wrap absolute bottom-0 m-auto p-1">
+          <div className="flex flex-row gap-1 max-w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
             {badges.jsBadge}
             {badges.reactBadge}
             {badges.routerBadge}

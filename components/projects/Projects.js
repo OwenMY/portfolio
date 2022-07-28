@@ -1,6 +1,6 @@
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
+import {motion} from 'framer-motion';
 import GymX5000 from './GymX5000';
 import Atelier from './Atelier';
 import QnA from './QnA_API';
@@ -26,7 +26,7 @@ const responsive = {
 
 const Projects = () => {
   return (
-    <div className="text-center">
+    <motion.div className="text-center">
       <h2 className="text-6xl underline font-bold mt-10">Projects</h2>
       <Carousel className="max-w-[54em] m-auto" responsive={responsive}>
         <Atelier />
@@ -34,7 +34,7 @@ const Projects = () => {
         <GymX5000 />
         <ArizonaTrafficMaps />
       </Carousel>
-    </div>
+    </motion.div>
   )
 };
 

@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 const Introduction = () => {
   return (
-    <div className="flex flex-row mt-20 gap-[3rem] max-w-screen min-h-[70vh] justify-center">
+    <div className="flex flex-row mt-10 md:mt-20 gap-[3rem] max-w-screen min-h-[70vh] justify-center">
       <div className="flex-col">
         <motion.h1
           transition={{duration: 1.5}}
@@ -11,7 +11,7 @@ const Introduction = () => {
           initial={{opacity: 0, y: -10}}
           whileInView={{opacity: 1}}
           viewport={{once: true}}
-          className="text-6xl  max-w-xl max-h-screen font-bold text-center md:text-start"
+          className="text-5xl md:text-6xl  max-w-xl max-h-screen font-bold text-center md:text-start"
         >Software Developer And Veteran</motion.h1>
         <motion.p
           transition={{duration: 2}}

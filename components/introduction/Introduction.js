@@ -11,7 +11,7 @@ const Introduction = () => {
           initial={{opacity: 0, y: -10}}
           whileInView={{opacity: 1}}
           viewport={{once: true}}
-          className="text-6xl max-w-xl max-h-screen font-bold text-start"
+          className="text-6xl max-w-xl max-h-screen font-bold text-center md:text-start"
         >Software Developer And Veteran</motion.h1>
         <motion.p
           transition={{duration: 2}}
@@ -19,9 +19,9 @@ const Introduction = () => {
           initial={{opacity: 0, x: -70}}
           whileInView={{opacity: 1}}
           viewport={{once: true}}
-          className="text-start max-w-[600px]">A curious software developer with a passion for automation and technology with the goal of creating satisfying and scalable applications.</motion.p>
+          className="text-center md:text-start max-w-[600px]">A curious software developer with a passion for automation and technology with the goal of creating satisfying and scalable applications.</motion.p>
       </div>
-      <div className="block w-[200px]">
+      <div className="w-[200px] hidden lg:block">
       <Image
         layout="responsive"
         height="100"

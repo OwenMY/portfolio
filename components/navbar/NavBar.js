@@ -10,7 +10,7 @@ const NavBar = () => {
       </div>
       <div className="flex flex-row gap-2 justify-center sm:justify-center items-center sm:mr-5">
         <motion.a
-         className=" flex flex-row text-xl items-center p-1 m-1 italic font-bold font-sans transition-all ease-in hover:text-blue-300 cursor-pointer"
+         className=" flex flex-row text-2xl items-center p-1 m-1 italic font-bold font-sans transition-all ease-in hover:text-blue-300 cursor-pointer"
         >About</motion.a>
         <motion.a
           href="https://www.linkedin.com/in/owenyoshishige/"

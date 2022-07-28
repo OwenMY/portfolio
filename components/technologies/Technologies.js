@@ -14,7 +14,7 @@ const Technologies = () => {
         initial={{opacity: 0, y: -50}}
         whileInView={{opacity: 1}}
         viewport={{once: true}}
-        className="text-4xl md:text-6xl underline m-5 text-center font-bold">Technologies</motion.h2>
+        className="text-[2em] sm:text-4xl md:text-6xl underline m-5 text-center font-bold">Technologies</motion.h2>
       <motion.div
         transition={{duration: 2}}
         animate={{x: 0}}

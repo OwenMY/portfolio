@@ -17,6 +17,7 @@ const Home = () => {
     </Head>
       <NavBar />
       <Introduction />
+      <About />
       <Technologies />
       <Projects />
       <Contact />

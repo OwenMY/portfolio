@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/Link';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { BsGithub } from 'react-icons/bs';
 import {motion} from 'framer-motion';
 
 const Introduction = () => {
@@ -20,18 +23,44 @@ const Introduction = () => {
           whileInView={{opacity: 1}}
           viewport={{once: true}}
           className="text-center md:text-start max-w-[600px]">A curious software developer with a passion for automation and technology with the goal of creating satisfying and scalable applications.</motion.p>
+        <div className="flex flex-row justify-center md:justify-start mt-2 gap-4">
+          <Link href="/files/owen-resume.pdf" >
+            <a className="border-gray-700 bg-gray-700 px-5 py-3 italic text-center my-auto rounded-[2em] font-bold text-sm">Resumé</a>
+          </Link>
+          <motion.a
+            href="https://www.linkedin.com/in/owenyoshishige/"
+            transition={{duration: .1}}
+            animate={{y: 0}}
+            initial={{opacity: 0, y: -20}}
+            whileInView={{opacity: 1}}
+            viewport={{once: true}}
+            className=" flex flex-row items-center p-1 my-auto font-bold font-sans transition-all ease-in hover:text-blue-300 cursor-pointer">
+              <AiFillLinkedin className="w-11 h-11 transition-all ease-in fill-gray-300 hover:fill-gray-400 " />
+          </motion.a>
+          <motion.a
+            href="https://github.com/OwenMY"
+            transition={{duration: .3}}
+            animate={{y: 0}}
+            initial={{opacity: 0, y: -20}}
+            whileInView={{opacity: 1}}
+            viewport={{once: true}}
+            className="p-1 my-auto font-bold font-sans transition-all ease-in cursor-pointer">
+              <BsGithub className="w-10 h-10 transition-all ease-in fill-gray-300 hover:fill-gray-400  " />
+          </motion.a>
+        </div>
+
       </div>
-      <div className="w-[200px] hidden lg:block">
+      {/* <div className="relative w-10 h-48 lg:block">
       <Image
-        layout="responsive"
-        height="100"
-        width="100"
-        sizes="760"
-        className="rounded-[50%]"
-        src="/images/profile-pic.jpeg"
+        layout="fill"
+        // height="200"
+        // width="150"
+        // sizes="760"
+        className=""
+        src="/images/profile-pic.png"
         alt="Owen"
       />
-      </div>
+      </div> */}
 
   </div>
   )

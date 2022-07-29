@@ -18,7 +18,11 @@ body {
   box-sizing: border-box;
 }
 
-img {
+a, button {
+  cursor: pointer;
+}
+
+/* img {
   max-width: 100%;
   display: block;
-}
+} */

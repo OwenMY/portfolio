@@ -3,7 +3,7 @@ import AtelierModal from '../projects/modal-data/AtelierModal';
 
 const getModalComponent = (component) => {
   switch(component) {
-    case 'contact':
+    case 'Contact':
       return <Contact />
     case 'Atelier':
       return <AtelierModal />

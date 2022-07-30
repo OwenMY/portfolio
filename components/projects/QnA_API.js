@@ -1,7 +1,10 @@
 import Image from 'next/image';
 import badges from './badges/Badges';
+import Modal from '../modal/Modal';
+import useModal from '../modal/useModal';
 
 const QnA = () => {
+  const { isShowing, toggle } = useModal();
 
   return (
     <>
@@ -10,6 +13,7 @@ const QnA = () => {
           <div className="w-[17em] h-[10em] rounded-t">
             <Image
               className="rounded-t cursor-pointer hover:opacity-70"
+              onClick={toggle}
               layout="responsive"
               height="10em"
               width="17em"
@@ -28,6 +32,7 @@ const QnA = () => {
             {badges.postgresBadge}
           </div>
         </div>
+        <Modal hide={toggle} isShowing={isShowing} component="QNA"/>
       </div>
     </>
   )

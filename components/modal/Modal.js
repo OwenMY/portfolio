@@ -1,7 +1,5 @@
 import ReactDOM from 'react-dom';
-import Contact from '../contact/Contact';
-import Introduction from '../introduction/Introduction';
-import AtelierModal from '../projects/modal-data/AtelierModal';
+import getModalComponent from './getModalComponent';
 import {motion} from 'framer-motion';
 
 const Modal = ({ isShowing, hide, component }) => isShowing ? ReactDOM.createPortal(
@@ -20,7 +18,7 @@ const Modal = ({ isShowing, hide, component }) => isShowing ? ReactDOM.createPor
           <button type="button" className="absolute right-0 top-[0%] text-[2em] text-bold rounded ml-[.5em] px-[.3rem] py-[1rem] border-none" data-dismiss="modal" aria-label="Close" onClick={hide}>
               <span aria-hidden="true">&times;</span>
           </button>
-          <AtelierModal />
+          {getModalComponent(component)}
         </div>
       </motion.div>
     </div>

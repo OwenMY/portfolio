@@ -24,7 +24,7 @@ const NavBar = () => {
             Contact
         </motion.a>
       </div>
-      <Modal hide={toggle} isShowing={isShowing}/>
+      <Modal hide={toggle} isShowing={isShowing} component="contact"/>
     </div>
   )
 };

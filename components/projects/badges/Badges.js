@@ -1,5 +1,23 @@
 import {FaAws, FaReact} from 'react-icons/fa'
-import {SiJavascript, SiNodedotjs, SiExpress, SiPostgresql, SiNginx, SiReactrouter, SiMaterialui, SiMongodb, SiStyledcomponents, SiJest} from 'react-icons/si';
+import {GiDualityMask} from 'react-icons/gi';
+import {
+  SiJavascript,
+  SiNodedotjs,
+  SiExpress,
+  SiPostgresql,
+  SiNginx,
+  SiReactrouter,
+  SiMaterialui,
+  SiMongodb,
+  SiStyledcomponents,
+  SiJest,
+  SiCss3,
+  SiHtml5,
+  SiWebpack,
+  SiBabel,
+  SiCypress,
+  SiTestinglibrary
+} from 'react-icons/si';
 
 
 const badges = {
@@ -27,6 +45,20 @@ const badges = {
   <SiStyledcomponents className="inline m-auto"/>Styled-Components</span>,
   jestBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
   <SiJest className="inline m-auto"/>Jest</span>,
-}
+  cssBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiCss3 className="inline m-auto"/>CSS</span>,
+  htmlBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiHtml5 className="inline m-auto"/>HTML</span>,
+  webpackBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiWebpack className="inline m-auto"/>Webpack</span>,
+  babelBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiBabel className="inline m-auto"/>Babel</span>,
+  cypressBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiCypress className="inline m-auto"/>Cypress</span>,
+  playwrightBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <GiDualityMask className="inline m-auto"/>Playwright</span>,
+  testingLibraryBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiTestinglibrary className="inline m-auto"/>Testing Library</span>,
+};
 
 export default badges;

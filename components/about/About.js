@@ -15,7 +15,8 @@ const About = () => {
         whileInView={{opacity: 1}}
         viewport={{once: true}}
         className="content-center justify-center flex flex-col flex-wrap max-w-[70vw] m-auto">
-        <p className="text-start break-normal">From fixing aircraft in the Marines to coding CNC machines, I have a breadth of experience.  During my time working in the machining industry, I created programs for CNC machines that would cut metal to create intricate parts.  Outside of coding, I play alot of disc golf and fish in local lakes.</p>
+        <p className="text-start break-normal md:overflow-hidden overflow-y-auto max-h-[40vh] md:max-h-max">Hey all! My names Owen. I am a multi-talented individual with a diverse background of experience, from fixing aircraft in the Marines to zapping out metal to create medical molds for plastic injection molding. These experiences come with many transferable skills that are too many to list. But to name a few, comming from the Marine Corps, I always strive for excellence and seek to take on more responsibility everywhere I go.  Being able to adapt quickly to change and handle short deadlines has been crucial to my success as a software engineer, especially when it came to building an MVP full-stack application within 48 hours. Outside of coding, I play alot of disc gold and fish at local lakes.
+        </p>
       </motion.div>
     </div>
   );

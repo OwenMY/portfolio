@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 
 const Introduction = () => {
   return (
-    <div className="flex flex-row mt-10 md:mt-20 gap-[3rem] max-w-screen min-h-[70vh] justify-center">
+    <div className="flex flex-row mt-10 md:mt-20 gap-[3rem] max-w-screen min-h-[60vh] justify-center">
       <div className="flex-col">
         <motion.h1
           transition={{duration: 1.5}}
@@ -24,9 +24,17 @@ const Introduction = () => {
           viewport={{once: true}}
           className="text-center md:text-start max-w-[600px]">A curious software developer with a passion for automation and technology with the goal of creating satisfying and scalable applications.</motion.p>
         <div className="flex flex-row justify-center md:justify-start mt-2 gap-4">
-          <Link href="/files/owen-resume.pdf" >
-            <a target="_blank" className="border-gray-700 bg-gray-700 px-5 py-3 italic text-center my-auto rounded-[2em] font-bold text-sm">Resumé</a>
-          </Link>
+          <motion.a
+            href="/files/owen-resume.pdf"
+            transition={{duration: .1}}
+            animate={{y: 0}}
+            initial={{opacity: 0, y: -20}}
+            whileInView={{opacity: 1}}
+            viewport={{once: true}}
+            target="_blank"
+            className="border-gray-700 bg-gray-700 hover:bg-gray-800 hover:text-gray-400 transition-all ease-in px-5 py-2 italic text-center my-auto rounded-[2em] font-bold text-sm cursor-pointer">
+            Resumé
+          </motion.a>
           <motion.a
             href="https://www.linkedin.com/in/owenyoshishige/"
             transition={{duration: .1}}

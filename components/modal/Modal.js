@@ -15,7 +15,7 @@ const Modal = ({ isShowing, hide, component }) => isShowing ? ReactDOM.createPor
         viewport={{once: true}}
       >
         <div className="h-auto w-sreen overflow-hidden">
-          <button type="button" className="absolute right-0 top-[0%] text-[2em] text-bold rounded ml-[.5em] px-[.3rem] py-[1rem] border-none" data-dismiss="modal" aria-label="Close" onClick={hide}>
+          <button type="button" className="absolute right-0 top-[0%] text-[2em] text-bold ml-[.3em] px-[0] py-[1rem] border-none cursor-pointer z-[1060]" data-dismiss="modal" aria-label="Close" onClick={hide}>
               <span aria-hidden="true">&times;</span>
           </button>
           {getModalComponent(component)}

@@ -1,9 +1,22 @@
 import {motion} from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <motion.div
-      className="py-28 max-w-[80vw] h-[100%] m-auto"
+      className="pt-28 max-w-[80vw] h-[100%] m-auto"
       transition={{duration: 1}}
       animate={{x: 0}}
       initial={{opacity: 0, y: -50}}

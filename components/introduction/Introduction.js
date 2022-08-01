@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 
 const Introduction = () => {
   return (
-    <div className="flex flex-row my-10 md:mt-20 gap-[3rem] max-w-screen min-h-[80vh] md:min-h-[80vh] justify-center">
+    <div className="flex flex-row my-10 md:mt-20 gap-[3rem] max-w-screen min-h-[80vh] md:min-h-[60vh] justify-center">
       <div className="flex-col">
         <motion.h1
           transition={{duration: 1.5}}

@@ -17,10 +17,14 @@ const Home = () => {
     </Head>
       <NavBar />
       <Introduction />
-      <About />
+      <div className="w-[100%] h-[100%] m-0 bg-black/[.5]">
+        <About />
+      </div>
       <Technologies />
       <Projects />
-      <Contact />
+      <div className="w-[100%] h-[100%] m-0 bg-black/[.5]">
+        <Contact />
+      </div>
     </>
   )
 };

@@ -18,7 +18,7 @@ const Atelier = () => {
               height="10em"
               width="17em"
               alt="GymX5000 Pic"
-              src="/images/Atelier.jpeg"
+              src="/images/AtelierCard.jpeg"
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Atelier</div>

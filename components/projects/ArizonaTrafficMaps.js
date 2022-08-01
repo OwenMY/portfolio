@@ -14,7 +14,7 @@ const ArizonaTrafficMaps = () => {
                 height="10em"
                 width="17em"
                 alt="GymX5000 Pic"
-                src="/images/AZTM.jpg"
+                src="/images/AZTMCard.jpeg"
               />
             </a>
           </div>

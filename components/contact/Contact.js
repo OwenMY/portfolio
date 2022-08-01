@@ -1,7 +1,15 @@
+import {motion} from 'framer-motion';
 
 const Contact = () => {
   return (
-    <div className="my-10 max-w-[80vw] h-[100%] m-auto">
+    <motion.div
+      className="py-28 max-w-[80vw] h-[100%] m-auto"
+      transition={{duration: 1}}
+      animate={{x: 0}}
+      initial={{opacity: 0, y: -50}}
+      whileInView={{opacity: 1}}
+      viewport={{once: true}}
+      >
       <h2 className="text-5xl text-center">Contact</h2>
       <div className="flex flex-col justify-center gap-10 mt-8">
           <div className="flex-col text-lg text-center my-auto hidden lg:flex">
@@ -17,7 +25,7 @@ const Contact = () => {
             <button className="border-gray-500 h-8 cursor-pointer hover: rounded bg-gray-500">Send</button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

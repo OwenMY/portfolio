@@ -21,7 +21,7 @@ const Technologies = () => {
         initial={{opacity: 0, y: -50}}
         whileInView={{opacity: 1}}
         viewport={{once: true}}
-        className="flex flex-row flex-wrap w-[80vw] sm:overflow-hidden overflow-y-auto max-h-[70vh] sm:max-h-max text-center items-center mx-auto mt-1 p-10  gap-3 md:gap-8 justify-center">
+        className="flex flex-col md:flex-row md:flex-wrap w-[80vw] overflow-y-auto sm:max-h-max text-center items-center mx-auto mt-1 p-10  gap-3 md:gap-8 justify-center">
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">
           <SiJavascript className="m-0 p-0"/>Javascript</span>
         <span className="flex flex-row items-center px-3 py-2 font-bold text-xl">

@@ -26,15 +26,15 @@ const responsive = {
 
 const Projects = () => {
   return (
-    <motion.div className="text-center">
-      <h2 className="text-6xl underline font-bold mt-10">Projects</h2>
+    <div className="text-center bg-black/50">
+      <h2 className="text-6xl underline font-bold pt-10">Projects</h2>
       <Carousel className="max-w-[54em] m-auto" responsive={responsive}>
         <Atelier />
         <QnA />
         <GymX5000 />
         <ArizonaTrafficMaps />
       </Carousel>
-    </motion.div>
+    </div>
   )
 };
 

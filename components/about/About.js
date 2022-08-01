@@ -2,7 +2,7 @@ import {motion} from 'framer-motion';
 
 const About = () => {
   return (
-    <div className="flex flex-col w-[70vw] m-auto mt-10 mb-20 justify-start content-start">
+    <div className="flex flex-col w-[70vw] m-auto pt-10 pb-20 justify-start content-start">
       <motion.h2
         transition={{duration: 1}}
         initial={{opacity: 0}}

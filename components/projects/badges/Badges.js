@@ -16,7 +16,8 @@ import {
   SiWebpack,
   SiBabel,
   SiCypress,
-  SiTestinglibrary
+  SiTestinglibrary,
+  SiGooglestreetview
 } from 'react-icons/si';
 
 
@@ -59,6 +60,8 @@ const badges = {
   <GiDualityMask className="inline m-auto"/>Playwright</span>,
   testingLibraryBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
   <SiTestinglibrary className="inline m-auto"/>Testing Library</span>,
+  googleMapsBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiGooglestreetview className="inline m-auto"/>Google Maps API</span>,
 };
 
 export default badges;

@@ -37,7 +37,7 @@ const GymX5000Modal = () => {
         </div>
         <span className="text-2xl my-2">About</span>
         <div className="text-sm overflow-y-auto max-h-[30vh] mb-4">
-          Atelier is an eccomerce product page displaying a product, related products, questions, answers, ratings and reviews. This page was built in an agile team of 4 software engineers with 4 indivdual components where each of us had ownership of one component. I was in charge of the questions and answers section.  My biggest challenge for this page was implementing a live search where the &quot;Show More&quot; button would only appear if there are enough answers given from the fetched data.
+          GymX5000 was created by a team of 9 software engineers where our client desired an all inclusive health and fitness application. I worked with the front-end team where I had ownership of the activity card component that would work with the polymorphic database created by our back-end team.  The card component was built using a combination of Bootstrap and Material UI along with switch statements to identify the type of card, whether it was a recipe card, a workout card or a class card.  Later per request of my product manager, I also built the live search and filter components to find activty cards by both a query and by card type.
         </div>
       </div>
     </div>

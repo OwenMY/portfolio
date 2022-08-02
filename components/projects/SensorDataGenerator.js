@@ -18,7 +18,8 @@ const SensorDataGenerator = () => {
               height="10em"
               width="17em"
               alt="Data Sensor Generator Pic"
-              src="/images/DSG.jpeg"
+              src="/images/DSG.webp"
+              loading="eager"
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Sensor Data Generator</div>

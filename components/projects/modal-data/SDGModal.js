@@ -13,7 +13,7 @@ const SDGModal = () => {
           layout="responsive"
           height="364px"
           width="800px"
-          src="/images/DSG-Modal.png"
+          src="/images/DSG-Modal.webp"
           alt="Data Sensor Generator Image"
         />
       </div>

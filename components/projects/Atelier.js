@@ -18,7 +18,8 @@ const Atelier = () => {
               height="10em"
               width="17em"
               alt="GymX5000 Pic"
-              src="/images/AtelierCard.jpeg"
+              src="/images/AtelierCard.webp"
+              loading="eager"
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Atelier</div>

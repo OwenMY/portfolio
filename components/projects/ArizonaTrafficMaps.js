@@ -18,7 +18,8 @@ const ArizonaTrafficMaps = () => {
               height="10em"
               width="17em"
               alt="AZTM Pic"
-              src="/images/AZTMCard.jpeg"
+              src="/images/AZTMCard.webp"
+              loading="eager"
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Arizona Traffic Maps</div>

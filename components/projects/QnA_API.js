@@ -18,7 +18,8 @@ const QnA = () => {
               height="10em"
               width="17em"
               alt="GymX5000 Pic"
-              src="/images/QNA_API.png"
+              src="/images/QNA_API.webp"
+              loading="eager"
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Questions and Answers API</div>

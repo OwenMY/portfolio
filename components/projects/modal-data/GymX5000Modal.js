@@ -12,7 +12,7 @@ const GymX5000Modal = () => {
           layout="responsive"
           height="364px"
           width="800px"
-          src="/images/GymX5000.jpg"
+          src="/images/GymX5000.webp"
           alt="GymX5000 image"
         />
       </div>

@@ -13,7 +13,7 @@ const AtelierModal = () => {
           layout="responsive"
           height="364px"
           width="800px"
-          src="/images/Atelier.jpeg"
+          src="/images/Atelier.webp"
           alt="Atelier Image"
         />
       </div>

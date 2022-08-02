@@ -13,7 +13,7 @@ const AZTM_Modal = () => {
           layout="responsive"
           height="364px"
           width="800px"
-          src="/images/AZTM.jpeg"
+          src="/images/AZTM.webp"
           alt="AZTM image"
         />
       </div>

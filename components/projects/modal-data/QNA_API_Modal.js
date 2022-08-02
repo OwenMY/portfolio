@@ -12,7 +12,7 @@ const QNA_API_Modal = () => {
           layout="responsive"
           height="364px"
           width="800px"
-          src="/images/API.png"
+          src="/images/API.webp"
           alt="Questions and Answers Image"
         />
       </div>

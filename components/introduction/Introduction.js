@@ -73,8 +73,9 @@ const Introduction = () => {
           height="750"
           width="750"
           sizes="740"
-          src="/images/owen-pic-modified.png"
+          src="/images/owen-pic-modified.webp"
           alt="Owen"
+          loading="eager"
         />
       </motion.div>
 

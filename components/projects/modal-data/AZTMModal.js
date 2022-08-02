@@ -13,8 +13,8 @@ const AZTM_Modal = () => {
           layout="responsive"
           height="364px"
           width="800px"
-          src="/images/AZTM.jpg"
-          alt="GymX5000 image"
+          src="/images/AZTM.jpeg"
+          alt="AZTM image"
         />
       </div>
       <div className="flex flex-col md:w-[100%]">
@@ -39,7 +39,7 @@ const AZTM_Modal = () => {
         </div>
         <span className="text-2xl my-2">About</span>
         <div className="text-sm overflow-y-auto max-h-[30vh] mb-4">
-          Arizona Traffic Maps
+          Arizona Traffic Maps (AZTM) is an app that allows you to view traffic cameras and events on a custom built google map in the State of Arizona using the AZ 511 API. This project was a 2-day sprint to build an MVP full-stack application.
         </div>
       </div>
     </div>

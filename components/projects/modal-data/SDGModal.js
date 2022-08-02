@@ -24,6 +24,8 @@ const SDGModal = () => {
             {badges.sassBadge}
             {badges.reactBadge}
             {badges.expressBadge}
+            {badges.webpackBadge}
+            {badges.babelBadge}
             {badges.postgresBadge}
             {badges.chartBadge}
             {badges.nodeBadge}

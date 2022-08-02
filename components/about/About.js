@@ -15,7 +15,7 @@ const About = () => {
         whileInView={{opacity: 1}}
         viewport={{once: true}}
         className="content-center justify-center flex flex-col flex-wrap max-w-[70vw] m-auto">
-        <p className="text-start break-normal md:overflow-hidden overflow-y-auto max-h-[40vh] md:max-h-max">Hey all! My names Owen, born and raised in Hawaii but currently reside in Tempe, Arizona. I am a multi-talented software developer with a diverse background of experience, from fixing aircraft in the Marines to zapping out metal to create medical molds for plastic injection molding. My interests and passions are in computer science, automation and technology.  I enjoy working in cross functional teams and with my &quot;figure it out&quot; mindset, success has always followed me. Outside of work and to name a few hobbies, I play disc golf, fish at local lakes and cook new foods.
+        <p className="text-start break-normal md:overflow-hidden overflow-y-auto max-h-[40vh] md:max-h-max">Hey all! My names Owen, born and raised in Hawaii but currently reside in Tempe, Arizona. I am a multi-talented software developer with a diverse background of experience, from fixing aircraft in the Marines to zapping out metal to create medical molds for plastic injection molding. My interests and passions are in computer science, automation and technology.  I enjoy working in cross functional teams and with my &quot;figure it out&quot; mindset, success has always followed me. Outside of work, I play disc golf, fish at local lakes and cook new foods.
         </p>
       </motion.div>
     </div>

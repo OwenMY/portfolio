@@ -37,7 +37,7 @@ const GymX5000Modal = () => {
         </div>
         <span className="text-2xl my-2">About</span>
         <div className="text-sm overflow-y-auto max-h-[30vh] mb-4">
-          GymX5000 was created by a team of 9 software engineers where our client desired an all inclusive health and fitness application. I worked with the front-end team where I had ownership of the activity card component that would work with the polymorphic database created by our back-end team.  The card component was built using a combination of Bootstrap and Material UI along with switch statements to identify the type of card, whether it was a recipe card, a workout card or a class card.  Later per request of my product manager, I also built the live search and filter components to find activty cards by both a query and by card type.
+          GymX5000 was created by a team of 9 software engineers where our client desired an all inclusive health and fitness application. I worked with the front end team where I had ownership of the activity card component that would work with the polymorphic database created by our back end team.  The card component was built using a combination of Bootstrap and Material UI along with switch statements to identify the type of card, whether it was a recipe card, a workout card or a class card.  Later per request of my product manager, I also built the live search and filter components to find activty cards by both a query and by card type.
         </div>
       </div>
     </div>

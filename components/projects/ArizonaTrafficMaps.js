@@ -23,7 +23,7 @@ const ArizonaTrafficMaps = () => {
             />
           </div>
           <div className="text-left font-bold break-normal ml-2">Arizona Traffic Maps</div>
-          <div className="text-sm pt-2">A custom build google map displaying traffic bottle necks and custruction zones</div>
+          <div className="text-sm pt-2">A custom built google map displaying traffic bottle necks and custruction zones</div>
           <div className="flex flex-row gap-1 max-w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
             {badges.jsBadge}
             {badges.expressBadge}

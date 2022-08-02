@@ -32,10 +32,6 @@ const AtelierModal = () => {
           </div>
           <div className="flex flex-row w-[100%] md:w-[40%] justify-end gap-1">
             <div>
-              <a className="flex flex-row bg-gray-800 rounded items-center px-2 py-1 font-bold text-md">
-                <FaAws className="m-0"/>Live</a>
-            </div>
-            <div>
               <a href="https://github.com/OwenMY/Atelier" target="_blank" className="flex flex-row bg-gray-800 rounded items-center px-2 py-1 font-bold text-md">
                 <BsGithub className="m-0"/>Code</a>
             </div>

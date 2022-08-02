@@ -60,17 +60,23 @@ const Introduction = () => {
         </div>
 
       </div>
-      {/* <div className="relative w-10 h-48 lg:block">
-      <Image
-        layout="fill"
-        // height="200"
-        // width="150"
-        // sizes="760"
-        className=""
-        src="/images/profile-pic.png"
-        alt="Owen"
-      />
-      </div> */}
+      <motion.div
+        className="relative w-[20%] h-15%] hidden lg:block"
+        transition={{duration: 1.5}}
+        animate={{x: 0}}
+        initial={{opacity: 0, x: 10}}
+        whileInView={{opacity: 1}}
+        viewport={{once: true}}
+      >
+        <Image
+          layout="responsive"
+          height="750"
+          width="750"
+          sizes="740"
+          src="/images/owen-pic-modified.png"
+          alt="Owen"
+        />
+      </motion.div>
 
   </div>
   )

@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <input className="text-black h-8" placeholder="Subject" type="text" name="subject"></input>
                 <textarea className="text-black h-28" placeholder="Message" type="text" name="message"></textarea>
-                <button className="border-gray-500 h-8 cursor-pointer hover: rounded bg-gray-500">Send</button>
+                <button className="border-gray-500 h-8 cursor-pointer hover:text-gray-500 hover:bg-gray-700  rounded bg-gray-500">Send</button>
               </>
               :
               <motion.div

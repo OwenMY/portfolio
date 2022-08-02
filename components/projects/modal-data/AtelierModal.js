@@ -15,6 +15,7 @@ const AtelierModal = () => {
           width="800px"
           src="/images/Atelier.webp"
           alt="Atelier Image"
+          loading="eager"
         />
       </div>
       <div className="flex flex-col md:w-[100%]">

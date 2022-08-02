@@ -15,6 +15,7 @@ const AZTM_Modal = () => {
           width="800px"
           src="/images/AZTM.webp"
           alt="AZTM image"
+          loading="eager"
         />
       </div>
       <div className="flex flex-col md:w-[100%]">

@@ -14,6 +14,7 @@ const GymX5000Modal = () => {
           width="800px"
           src="/images/GymX5000.webp"
           alt="GymX5000 image"
+          loading="eager"
         />
       </div>
       <div className="flex flex-col md:w-[100%]">

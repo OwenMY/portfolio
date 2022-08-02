@@ -15,6 +15,7 @@ const SDGModal = () => {
           width="800px"
           src="/images/DSG-Modal.webp"
           alt="Data Sensor Generator Image"
+          loading="eager"
         />
       </div>
       <div className="flex flex-col md:w-[100%]">

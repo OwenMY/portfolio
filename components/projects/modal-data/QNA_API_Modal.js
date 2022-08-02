@@ -14,6 +14,7 @@ const QNA_API_Modal = () => {
           width="800px"
           src="/images/API.webp"
           alt="Questions and Answers Image"
+          loading="eager"
         />
       </div>
       <div className="flex flex-col md:w-[100%]">

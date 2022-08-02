@@ -26,14 +26,13 @@ const SensorDataGenerator = () => {
           <div className="flex flex-row gap-1 max-w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
             {badges.jsBadge}
             {badges.reactBadge}
-            {badges.expressBadge}
             {badges.postgresBadge}
             {badges.sassBadge}
             {badges.chartBadge}
 
           </div>
         </div>
-        <Modal hide={toggle} isShowing={isShowing} component={'Atelier'}/>
+        <Modal hide={toggle} isShowing={isShowing} component={'SensorDataGenerator'}/>
       </div>
     </>
   )

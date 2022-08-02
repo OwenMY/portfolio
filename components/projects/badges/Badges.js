@@ -17,7 +17,9 @@ import {
   SiBabel,
   SiCypress,
   SiTestinglibrary,
-  SiGooglestreetview
+  SiGooglestreetview,
+  SiSass,
+  SiChartdotjs
 } from 'react-icons/si';
 
 
@@ -62,6 +64,10 @@ const badges = {
   <SiTestinglibrary className="inline m-auto"/>Testing Library</span>,
   googleMapsBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
   <SiGooglestreetview className="inline m-auto"/>Google Maps API</span>,
+  sassBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiSass className="inline m-auto"/>Sass</span>,
+  chartBadge: <span className="flex flex-row  text-xs bg-gray-800 border p-1 rounded-xl">
+  <SiChartdotjs className="inline m-auto"/>Chart</span>,
 };
 
 export default badges;

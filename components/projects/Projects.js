@@ -5,6 +5,7 @@ import GymX5000 from './GymX5000';
 import Atelier from './Atelier';
 import QnA from './QnA_API';
 import ArizonaTrafficMaps from './ArizonaTrafficMaps';
+import SensorDataGenerator from './SensorDataGenerator';
 
 const responsive = {
   desktop: {
@@ -33,6 +34,7 @@ const Projects = () => {
         <QnA />
         <GymX5000 />
         <ArizonaTrafficMaps />
+        <SensorDataGenerator />
       </Carousel>
     </div>
   )

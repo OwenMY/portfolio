@@ -1,11 +1,8 @@
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 import {motion} from 'framer-motion';
-import GymX5000 from './GymX5000';
-import Atelier from './Atelier';
-import QnA from './QnA_API';
-import ArizonaTrafficMaps from './ArizonaTrafficMaps';
-import SensorDataGenerator from './SensorDataGenerator';
+import ProjectCard from './ProjectCard';
+import projectData from './ProjectData';
 
 const responsive = {
   desktop: {
@@ -30,11 +27,7 @@ const Projects = () => {
     <div className="text-center bg-black/50">
       <h2 className="text-6xl underline font-bold pt-10">Projects</h2>
       <Carousel className="max-w-[54em] m-auto" responsive={responsive}>
-        <Atelier />
-        <QnA />
-        <GymX5000 />
-        <ArizonaTrafficMaps />
-        <SensorDataGenerator />
+        {projectData.map(project => <ProjectCard key={project.projectName} project={project}/> )}
       </Carousel>
     </div>
   )

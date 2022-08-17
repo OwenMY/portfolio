@@ -11,13 +11,13 @@ const getModalComponent = (component) => {
       return <Contact />
     case 'Atelier':
       return <AtelierModal />
-    case 'QNA':
+    case 'Questions and Answers API':
       return <QNA_API_Modal />
     case 'GymX5000':
       return <GymX5000Modal />
-    case 'AZTM':
+    case 'Arizona Traffic Maps':
       return <AZTM_Modal />
-    case 'SensorDataGenerator':
+    case 'Sensor Data Generator':
       return <SDGModal />;
     default:
       return null;

@@ -3,9 +3,8 @@ import badges from './badges/Badges';
 import Modal from '../modal/Modal';
 import useModal from '../modal/useModal';
 
-const SensorDataGenerator = () => {
+const ProjectCard = ({project}) => {
   const { isShowing, toggle } = useModal();
-
   return (
     <>
       <div className="m-auto mt-5 relative">
@@ -17,26 +16,21 @@ const SensorDataGenerator = () => {
               layout="responsive"
               height="10em"
               width="17em"
-              alt="Data Sensor Generator Pic"
-              src="/images/DSG.webp"
+              alt={project.alt}
+              src={project.src}
               loading="eager"
             />
           </div>
-          <div className="text-left font-bold break-normal ml-2">Sensor Data Generator</div>
-          <div className="text-sm pt-2">A full stack challenge to generate data for a virtual reality system</div>
+          <div className="text-left font-bold break-normal ml-2">{project.projectName}</div>
+          <div className="text-sm pt-2">{project.description}</div>
           <div className="flex flex-row gap-1 max-w-[17em] flex-wrap absolute bottom-0 m-auto p-1">
-            {badges.jsBadge}
-            {badges.reactBadge}
-            {badges.postgresBadge}
-            {badges.sassBadge}
-            {badges.chartBadge}
-
+            {project.badges.map(badge => badge)}
           </div>
         </div>
-        <Modal hide={toggle} isShowing={isShowing} component={'SensorDataGenerator'}/>
+        <Modal hide={toggle} isShowing={isShowing} component={project.projectName}/>
       </div>
     </>
   )
 };
 
-export default SensorDataGenerator;
+export default ProjectCard;

@@ -27,7 +27,12 @@ const ProjectCard = ({project}) => {
             {project.badges.map(badge => badge)}
           </div>
         </div>
-        <Modal hide={toggle} isShowing={isShowing} component={project.projectName}/>
+        <Modal
+          hide={toggle}
+          isShowing={isShowing}
+          component={project.projectName}
+          projectData={project.modalData}
+          />
       </div>
     </>
   )

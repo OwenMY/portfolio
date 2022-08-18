@@ -1,9 +1,10 @@
 import badges from './badges/Badges';
+import projectModalData from './modal-data/ProjectModalData'
 
 const projectData = [
   {
     projectName: 'Atelier',
-    description: 'An ecommerce product page where customers can rate, view products, ask questions, and write reviews ',
+    description: 'An e-commerce product page where customers can rate, view products, ask questions, and write reviews ',
     alt: 'Atelier Homepage',
     src: '/images/AtelierCard.webp',
     badges: [
@@ -12,7 +13,8 @@ const projectData = [
       badges.expressBadge,
       badges.styledBadge,
       badges.jestBadge
-    ]
+    ],
+    modalData: projectModalData.atelier
   },
   {
     projectName: 'Questions and Answers API',
@@ -26,7 +28,8 @@ const projectData = [
       badges.awsBadge,
       badges.nginxBadge,
       badges.postgresBadge
-    ]
+    ],
+    modalData: projectModalData.qna_api
   },
   {
     projectName: 'GymX5000',
@@ -38,7 +41,8 @@ const projectData = [
       badges.reactBadge,
       badges.routerBadge,
       badges.muiBadge
-    ]
+    ],
+    modalData: projectModalData.gymX5000
   },
   {
     projectName: 'Arizona Traffic Maps',
@@ -51,7 +55,8 @@ const projectData = [
       badges.mongoBadge,
       badges.reactBadge,
       badges.googleMapsBadge
-    ]
+    ],
+    modalData: projectModalData.AZTM
   },
   {
     projectName: 'Sensor Data Generator',
@@ -64,7 +69,8 @@ const projectData = [
       badges.postgresBadge,
       badges.sassBadge,
       badges.chartBadge
-    ]
+    ],
+    modalData: projectModalData.sensorDataGenerator
   },
 ];
 

@@ -9,10 +9,10 @@ const NavBar = () => {
 
   return (
     <div className="flex flex-col sm:flex-row  justify-between px-2 py-3 bg-black text-white">
-      <div className="flex items-center ml-5">
+      <div role="banner" className="flex items-center ml-5">
         <span className="hidden sm:block m-auto p-2 text-2xl italic font-bold font-sans">Owen Yoshishige</span>
       </div>
-      <div className="flex flex-row gap-2 justify-end sm:justify-center items-center sm:mr-5">
+      <div role="button" className="flex flex-row gap-2 justify-end sm:justify-center items-center sm:mr-5">
         <motion.a
           onClick={toggle}
           transition={{duration: .5}}

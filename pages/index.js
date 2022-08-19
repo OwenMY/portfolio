@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
     <Head>
-     <title>Welcome!</title>
+     <title>Owens Portfolio Page</title>
      <link rel="icon" href="/favicon.ico" />
     </Head>
       <NavBar />

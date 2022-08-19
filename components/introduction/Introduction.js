@@ -23,7 +23,7 @@ const Introduction = () => {
           whileInView={{opacity: 1}}
           viewport={{once: true}}
           className="text-center md:text-start max-w-[600px]">A curious software developer with a passion for automation and technology with the goal of creating satisfying and scalable applications.</motion.p>
-        <div className="flex flex-row justify-center md:justify-start mt-2 gap-4">
+        <div role="navigation" className="flex flex-row justify-center md:justify-start mt-2 gap-4">
           <motion.a
             href="/files/Owen-Resume.pdf"
             transition={{duration: .1}}
